@@ -1,0 +1,1 @@
+print(sum([ord(s)-ord('A')+27 if ord(s)<ord('a') else ord(s)-ord('a')+1 for s in [list(set(g[0]).intersection(g[1]).intersection(g[2]))[0] for g in [open('i').read().split('\n')[3*i:3*i+3] for i in range(len(open('i').read().split('\n'))//3)]]]))
