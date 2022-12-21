@@ -1,0 +1,1 @@
+print(sum([(ord(x[2])-ord('X'))*3+(ord(x[0])-ord('A')+ord(x[2])-ord('Y'))%3+1 for x in open('i').readlines()]))

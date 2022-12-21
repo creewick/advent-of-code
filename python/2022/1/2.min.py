@@ -1,1 +1,1 @@
-print(sum(sorted([sum(map(int, group.split('\n'))) for group in open('input.txt').read().split('\n\n')], reverse=True)[:3]))
+print(sum(sorted([sum(map(int,g.split('\n'))) for g in open('i').read().split('\n\n')],reverse=True)[:3]))
