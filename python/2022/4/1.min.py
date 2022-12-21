@@ -1,0 +1,1 @@
+print(sum([1 for a,b,c,d in [map(int,l.replace('-',',').split(',')) for l in open('i').readlines()] if a>=c and b<=d or c>=a and d<=b]))
